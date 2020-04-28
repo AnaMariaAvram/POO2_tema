@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1587928258 source:c:\users\avram\desktop\poo\matrice_tema2\main.cpp
+	<iostream>
+	"Vector.h"
+	"Matrice_Patratica.h"
+	"Matrice_Oarecare.h"
+	"Matrice.h"
+	<fstream>
+
+1587927123 c:\users\avram\desktop\poo\matrice_tema2\include\vector.h
+	<iostream>
+
+1587927264 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_patratica.h
+	"Matrice.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1587925018 c:\users\avram\desktop\poo\matrice_tema2\include\matrice.h
+	"Vector.h"
+
+1587925348 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_oarecare.h
+	"Matrice.h"
+	<iostream>
+	<fstream>
+	<cstdlib>
+
+1587925018 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice.cpp
+	"Matrice.h"
+	<fstream>
+	<cstdlib>
+
+1587929078 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_patratica.cpp
+	"Matrice_Patratica.h"
+	<fstream>
+	<cstdlib>
+
+1587924921 source:c:\users\avram\desktop\poo\matrice_tema2\src\vector.cpp
+	"Vector.h"
+	<fstream>
+	<cstdlib>
+
+1587927123 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_oarecare.cpp
+	"Matrice_Oarecare.h"
+	<fstream>
+	<cstdlib>
+

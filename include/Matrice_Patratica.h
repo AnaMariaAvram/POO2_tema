@@ -12,7 +12,7 @@ class Matrice_Patratica: public Matrice
     private:
     public:
         Matrice_Patratica();
-        void Get_Sum_Mat_Patratica();
+        void get_sum();
         int pura(int i)
         {
             i=1;
@@ -24,9 +24,7 @@ class Matrice_Patratica: public Matrice
         Matrice_Patratica& operator=(const Matrice_Patratica &ob)
         {
             if (this != &ob)
-            {
                 this->Matrice::operator=(ob);
-            }
             return *this;
         }
 };

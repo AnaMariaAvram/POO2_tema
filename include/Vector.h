@@ -9,17 +9,14 @@ class Vector
         int dim;
         int *a;
     public:
-        //Constuctor de initializare
         Vector();
         virtual ~Vector();
         Vector(int, int *);
         Vector(const Vector &);
-         //supraincarcarea operatorilor << si >>
         friend istream &operator>>(istream &, Vector &);
         friend ostream &operator<<(ostream &, Vector &);
-        //Constructor cu operatorul =
         Vector operator=(const Vector&);
-        int Get_dimensiunevector()
+        int Get_Dimensiune()
         {
             return dim;
         }

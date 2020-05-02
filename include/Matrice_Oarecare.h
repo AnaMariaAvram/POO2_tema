@@ -13,7 +13,7 @@ class Matrice_Oarecare: public Matrice
 private:
 public:
     Matrice_Oarecare();
-    void Get_Sum_Mat_Oarecare();
+    void get_sum();
     int pura(int i)
     {
         i=1;
@@ -27,9 +27,7 @@ public:
     Matrice_Oarecare& operator=(const Matrice_Oarecare &ob)
     {
         if (this != &ob)
-        {
             this->Matrice::operator=(ob);
-        }
         return *this;
     }
 };

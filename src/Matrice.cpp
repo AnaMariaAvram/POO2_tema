@@ -37,8 +37,8 @@ Matrice& Matrice::operator=(const Matrice &tablou)
 
 istream &operator>>(istream &in, Matrice &tablou)
 {
+    delete [] tablou.v;
     in>>tablou.NrLinii;
-
     tablou.v = new Vector [tablou.NrLinii];
     for (int i = 0; i < tablou.NrLinii ; i++)
         in >> tablou.v[i];

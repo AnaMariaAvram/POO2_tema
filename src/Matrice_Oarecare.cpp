@@ -9,28 +9,13 @@ Matrice_Oarecare::Matrice_Oarecare() : Matrice()
     v = NULL;*/
     //ctor
 }
-Matrice_Oarecare::Matrice_Oarecare(int k, Vector x) : Matrice( k, x)
-{
-    NrLinii = k;
-    v = new Vector[NrLinii];
-    for (int i = 0; i < k; i++)
-         v[i] = x;
 
-}
-Matrice_Oarecare::Matrice_Oarecare (const Matrice_Oarecare &tablou) : Matrice(tablou)
-{
-    NrLinii = tablou.NrLinii;
-    v = new Vector[NrLinii];
-    for(int i = 0; i < NrLinii; i++)
-        v[i] = tablou.v[i];
-
-}
-void Matrice_Oarecare::Get_Sum_Mat_Oarecare()
+void Matrice_Oarecare::get_sum()
 {
     int suma = 0;
     int sumadiagonala = 0;
     for (int i = 0; i< this->NrLinii; i++)
-        for (int j = 0; j< this->v[i].Get_dimensiunevector(); j++)
+        for (int j = 0; j< this->v[i].Get_Dimensiune(); j++)
         {
             suma += (this->v[i]).GetElement(j);
             if( i == j )

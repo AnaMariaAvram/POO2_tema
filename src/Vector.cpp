@@ -1,6 +1,6 @@
 #include "Vector.h"
 #include <fstream>
-#include <cstdlib>
+
 using namespace std;
 
 
@@ -8,7 +8,7 @@ Vector::Vector()
 {
     dim = 0;
     a = NULL;
-     //ctor
+    //ctor
 }
 
 Vector::Vector(int n, int *v)
@@ -16,7 +16,7 @@ Vector::Vector(int n, int *v)
     dim = n;
     a = new int[n];
     for (int i = 0; i < n; i++)
-         a[i] = v[i];
+        a[i] = v[i];
 
 }
 
@@ -41,12 +41,12 @@ Vector Vector::operator=(const Vector &tablou)
 
 istream &operator>>(istream &in, Vector &tablou)
 {
+    if(tablou.dim>0)
+        delete [] tablou.a;
     in >> tablou.dim;
     tablou.a = new int [tablou.dim];
     for (int i = 0; i < tablou.dim ; i++)
-    {
         in >> tablou.a[i];
-    }
     return in;
 }
 ostream &operator<<(ostream &out,Vector &tablou)

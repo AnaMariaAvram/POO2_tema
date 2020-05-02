@@ -41,8 +41,8 @@ Vector Vector::operator=(const Vector &tablou)
 
 istream &operator>>(istream &in, Vector &tablou)
 {
-    if(tablou.dim>0)
-        delete [] tablou.a;
+    if(a.dim>0)
+    delete [] tablou.a;
     in >> tablou.dim;
     tablou.a = new int [tablou.dim];
     for (int i = 0; i < tablou.dim ; i++)

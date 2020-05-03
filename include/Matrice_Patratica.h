@@ -13,11 +13,6 @@ class Matrice_Patratica: public Matrice
     public:
         Matrice_Patratica();
         void get_sum();
-        int pura(int i)
-        {
-            i=1;
-            return i;
-        }
         virtual ~Matrice_Patratica();
         Matrice_Patratica(int, Vector);
         Matrice_Patratica(const Matrice_Patratica &);

@@ -14,11 +14,6 @@ private:
 public:
     Matrice_Oarecare();
     void get_sum();
-    int pura(int i)
-    {
-        i=1;
-        return i;
-    }
     virtual ~Matrice_Oarecare();
     Matrice_Oarecare(int, Vector);
     Matrice_Oarecare(const Matrice_Oarecare &);
@@ -31,5 +26,6 @@ public:
         return *this;
     }
 };
+
 
 #endif // MATRICE_OARECARE_H

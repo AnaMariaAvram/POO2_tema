@@ -5,7 +5,8 @@ using namespace std;
 
 Matrice_Oarecare::Matrice_Oarecare() : Matrice()
 {
-    /*NrLinii = 0;
+    /*
+    NrLinii = 0;
     v = NULL;*/
     //ctor
 }

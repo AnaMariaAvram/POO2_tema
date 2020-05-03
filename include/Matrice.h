@@ -17,7 +17,7 @@ class Matrice
         friend ostream &operator<<(ostream &, Matrice &);
         Matrice&operator=(const Matrice &);
         friend class Vector;
-        virtual int pura(int i)=0;
+        virtual void get_sum()=0;///clasa abstracta
         virtual ~Matrice();
 
 

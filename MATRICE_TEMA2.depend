@@ -10,16 +10,16 @@
 1588426123 c:\users\avram\desktop\poo\matrice_tema2\include\vector.h
 	<iostream>
 
-1588426038 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_patratica.h
+1588514133 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_patratica.h
 	"Matrice.h"
 	<iostream>
 	<fstream>
 	<cstdlib>
 
-1588425495 c:\users\avram\desktop\poo\matrice_tema2\include\matrice.h
+1588514133 c:\users\avram\desktop\poo\matrice_tema2\include\matrice.h
 	"Vector.h"
 
-1588426003 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_oarecare.h
+1588514087 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_oarecare.h
 	"Matrice.h"
 	<iostream>
 	<fstream>
@@ -30,16 +30,16 @@
 	<fstream>
 	<cstdlib>
 
-1588428485 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_patratica.cpp
+1588432657 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_patratica.cpp
 	"Matrice_Patratica.h"
 	<fstream>
 	<cstdlib>
 
-1588429010 source:c:\users\avram\desktop\poo\matrice_tema2\src\vector.cpp
+1588432599 source:c:\users\avram\desktop\poo\matrice_tema2\src\vector.cpp
 	"Vector.h"
 	<fstream>
 
-1588426703 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_oarecare.cpp
+1588432657 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_oarecare.cpp
 	"Matrice_Oarecare.h"
 	<fstream>
 	<cstdlib>

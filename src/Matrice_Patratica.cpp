@@ -9,7 +9,7 @@ Matrice_Patratica::Matrice_Patratica():Matrice()
     //ctor
 }
 
-void Matrice_Patratica::get_sum()
+void Matrice_Patratica::Afis_Sum()
 {
     int determinant = 1;
     int suma = 0;

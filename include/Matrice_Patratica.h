@@ -12,7 +12,7 @@ class Matrice_Patratica: public Matrice
     private:
     public:
         Matrice_Patratica();
-        void get_sum();
+        void Afis_Sum();
         virtual ~Matrice_Patratica();
         Matrice_Patratica(int, Vector);
         Matrice_Patratica(const Matrice_Patratica &);

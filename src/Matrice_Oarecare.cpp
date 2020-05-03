@@ -11,7 +11,7 @@ Matrice_Oarecare::Matrice_Oarecare() : Matrice()
     //ctor
 }
 
-void Matrice_Oarecare::get_sum()
+void Matrice_Oarecare::Afis_Sum()
 {
     int suma = 0;
     int sumadiagonala = 0;

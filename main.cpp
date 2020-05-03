@@ -11,11 +11,14 @@ int main()
 {
     ifstream f("TEMA2.in");
     Matrice_Oarecare mato;
-    f >> mato;
-    mato.get_sum();
     Matrice_Patratica matp;
+    Matrice *mat;
+    f >> mato;
     f >> matp;
-    matp.get_sum();
+    mat = &mato;
+    mat->Afis_Sum();
+    mat = &matp;
+    mat->Afis_Sum();
     f.close();
     return 0;
 }

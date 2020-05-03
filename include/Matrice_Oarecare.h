@@ -13,7 +13,7 @@ class Matrice_Oarecare: public Matrice
 private:
 public:
     Matrice_Oarecare();
-    void get_sum();
+    void Afis_Sum();
     virtual ~Matrice_Oarecare();
     Matrice_Oarecare(int, Vector);
     Matrice_Oarecare(const Matrice_Oarecare &);

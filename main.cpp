@@ -10,6 +10,15 @@ using namespace std;
 int main()
 {
     ifstream f("TEMA2.in");
+    try
+    {
+        Matrice_Oarecare mato;
+    }
+    catch(exception &exp)
+    {
+        cout<<exp.what()<<'\n';
+    }
+
     Matrice_Oarecare mato;
     Matrice_Patratica matp;
     Matrice *mat;

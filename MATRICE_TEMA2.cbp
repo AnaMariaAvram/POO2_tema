@@ -40,11 +40,13 @@
 		<Unit filename="include/Matrice_Oarecare.h" />
 		<Unit filename="include/Matrice_Patratica.h" />
 		<Unit filename="include/Vector.h" />
+		<Unit filename="include/exceptie.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Matrice.cpp" />
 		<Unit filename="src/Matrice_Oarecare.cpp" />
 		<Unit filename="src/Matrice_Patratica.cpp" />
 		<Unit filename="src/Vector.cpp" />
+		<Unit filename="src/exceptie.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

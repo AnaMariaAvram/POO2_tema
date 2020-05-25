@@ -46,10 +46,5 @@ void Matrice_Patratica::Afis_Sum()
                 determinant = (this->v[0]).GetElement(0)*(this->v[1]).GetElement(1)*(this->v[2]).GetElement(3)+(this->v[2]).GetElement(0)*(this->v[0]).GetElement(1)*(this->v[1]).GetElement(2)+(this->v[1]).GetElement(0)*(this->v[2]).GetElement(1)*(this->v[0]).GetElement(2)-(this->v[2]).GetElement(0)*(this->v[1]).GetElement(1)*(this->v[0]).GetElement(2)-(this->v[0]).GetElement(0)*(this->v[1]).GetElement(2)*(this->v[2]).GetElement(1)-(this->v[2]).GetElement(2)*(this->v[0]).GetElement(1)*(this->v[1]).GetElement(0);
     cout << determinant << "." ;
 }
-Matrice_Patratica::~Matrice_Patratica()
-{
-    NrLinii = 0;
-    delete [] v;
-    //dtor
-}
+
 

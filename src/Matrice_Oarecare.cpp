@@ -27,9 +27,3 @@ void Matrice_Oarecare::Afis_Sum()
     cout <<endl;
 
 }
-Matrice_Oarecare::~Matrice_Oarecare()
-{
-    NrLinii = 0;
-    delete [] v;
-    //dtor
-}

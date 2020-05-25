@@ -13,7 +13,7 @@ class Matrice_Patratica: public Matrice
     public:
         Matrice_Patratica();
         void Afis_Sum();
-        virtual ~Matrice_Patratica();
+        virtual ~Matrice_Patratica()=default;
         Matrice_Patratica(int, Vector);
         Matrice_Patratica(const Matrice_Patratica &);
         Matrice_Patratica& operator=(const Matrice_Patratica &ob)

@@ -14,7 +14,7 @@ private:
 public:
     Matrice_Oarecare();
     void Afis_Sum();
-    virtual ~Matrice_Oarecare();
+    virtual ~Matrice_Oarecare()=default;
     Matrice_Oarecare(int, Vector);
     Matrice_Oarecare(const Matrice_Oarecare &);
     /// friend istream &operator>>(istream &, Matrice_Oarecare &);

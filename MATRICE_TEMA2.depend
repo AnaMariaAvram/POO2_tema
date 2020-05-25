@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1588514974 source:c:\users\avram\desktop\poo\matrice_tema2\main.cpp
+1589881498 source:c:\users\avram\desktop\poo\matrice_tema2\main.cpp
 	<iostream>
 	"Vector.h"
 	"Matrice_Patratica.h"
@@ -10,16 +10,16 @@
 1588426123 c:\users\avram\desktop\poo\matrice_tema2\include\vector.h
 	<iostream>
 
-1588514794 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_patratica.h
+1589885641 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_patratica.h
 	"Matrice.h"
 	<iostream>
 	<fstream>
 	<cstdlib>
 
-1588514794 c:\users\avram\desktop\poo\matrice_tema2\include\matrice.h
+1589885625 c:\users\avram\desktop\poo\matrice_tema2\include\matrice.h
 	"Vector.h"
 
-1588514794 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_oarecare.h
+1590404759 c:\users\avram\desktop\poo\matrice_tema2\include\matrice_oarecare.h
 	"Matrice.h"
 	<iostream>
 	<fstream>
@@ -30,7 +30,7 @@
 	<fstream>
 	<cstdlib>
 
-1588514794 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_patratica.cpp
+1589885647 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_patratica.cpp
 	"Matrice_Patratica.h"
 	<fstream>
 	<cstdlib>
@@ -39,7 +39,7 @@
 	"Vector.h"
 	<fstream>
 
-1588514794 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_oarecare.cpp
+1590404767 source:c:\users\avram\desktop\poo\matrice_tema2\src\matrice_oarecare.cpp
 	"Matrice_Oarecare.h"
 	<fstream>
 	<cstdlib>
@@ -49,4 +49,9 @@
 
 1589881300 c:\users\avram\desktop\poo\matrice_tema2\include\exceptie.h
 	<exception>
+
+1589885550 source:c:\users\avram\desktop\poo\matrice_tema2\src\vertebrate.cpp
+	"Vertebrate.h"
+
+1589885191 c:\users\avram\desktop\poo\matrice_tema2\include\vertebrate.h
 

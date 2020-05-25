@@ -10,20 +10,24 @@ using namespace std;
 int main()
 {
     ifstream f("TEMA2.in");
+    Matrice *mat;
     try
     {
         Matrice_Oarecare mato;
+        mat = &mato;
+        mat-> Afis_Sum();
     }
     catch(exception &exp)
     {
-        cout<<exp.what()<<'\n';
+
     }
 
     Matrice_Oarecare mato;
     Matrice_Patratica matp;
-    Matrice *mat;
     f >> mato;
     f >> matp;
+    cout << mato << endl;
+    cout << matp << endl;
     mat = &mato;
     mat->Afis_Sum();
     mat = &matp;
